@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: HankenGrotesk-bold;
+    src: url(./HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: HankenGrotesk-bold;
+}
+body{
+
+    
+}
+.main{
+    width: 50%;
+    margin:25%;
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px 1px gray;
+    border-radius: 20px;
+    
+}
+.sub1{
+    border: 1px solid green;
+    background-image: linear-gradient(to bottom, #5751b6, #3A2EFE);
+    color: #999999;
+    text-align: center;
+    justify-self: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.round{
+    background-image: linear-gradient(to bottom, #4e21ca, #3A2EFE10);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    padding: 45px;
+    margin-top: 20px;
+}
+.h21{
+    color: white;
+}
+.round h1{
+    color: azure;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom:0;
+}
+.sub1 p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+.p1{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.h2{
+    margin-top: 20px;
+}
+.sub2{
+    margin:30px;
+    
+    
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.marks {
+
+}
+.reaction {
+   display: flex;
+   color: #ff5757;
+   
+}
+.memory{
+    display: flex;
+    flex-direction: row;
+    color: #ffb01f;
+}    
+.verbal{
+    display: flex;
+    color: #00bd91;
+}
+.visual{
+    display: flex;
+    color: #1125d4;
+}
+
+#reaction{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fbd9d370;
+    
+}
+#memory{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f7f5bc70;
+}
+#verbal{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #c9f5d970;
+
+}
+#visual{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #d5dbec70;
+
+}
+.btn{
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #303b5a;
+    color: antiquewhite;
+}
+button:hover{
+    background-color: #4b5a83;
+}
+@media(min-width:576px){
+    .main{
+        display: flex;
+        max-width: 1440px;
+        
+    }
+    body{
+        width:1440px;
+    }
+    .sub1{
+        width: 50%;
+        border-radius: 20px;
+    }
+    .sub2{
+        width:37%;
+    }
+}
+
+
